@@ -4,3 +4,22 @@ body{
 #topo{
     background-color: #c2bcd8;
 }
+.topo{ 
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topo a{
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: mediumpurple;
+}
+topo a:hover{
+    background-color: rgb(196, 97, 163);
+    border-radius: 5px;
+}
+.topo ul{
+    display: flex;
+    list-style: none;
+}
